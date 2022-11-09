@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="src/images/logo.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Recursive&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d1f6e23e8c.js" crossorigin="anonymous"></script>
+    <title>Aleh Prakharevich - Front-End Developer</title>
+</head>
+<body>
+    <header id="header">
+        <div class="nav _animated">
+            <h3><a class="logo" href="#home">IAMPRAKHAREVICH</a></h3>
+            <div class="hamburger_menu"><div></div></div>
+        </div>
+    </header>
+    <div class="menu">
+        <ul class="menu_elems">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#code">Code Example</a></li>
+          <li><a href="#contacts">Contacts</a></li>
+        </ul>
+    </div>
+    <main>
+        <section class="showcase" id="home">
+            <div class="overlay _animated">
+                <h1 class="title">Aleh Prakharevich</h1>
+                <p class="description">Front-End Developer</p>
+                <a href="#" download="src/downloads/Aleh_Prakharevich-CV.pdf" class="btn download">Download CV</a>
+                <a href="mailto:iamprakharevich@gmail.com" class="contactme">Contact me ></a>
+            </div>
+        </section>
+        <section id="about">
+            <h2 class="_animated">About me</h2>
+            <div class="about _animated">
+                <div class="container">
+                    <p class="name">Aleh Prakharevich</p>
+                    <p>Сurrent place of work: <span class="redacted">Front-End Web Developer</span></p>
+                    <p>Specifications: Resourceful, independent, confident, adaptive, fast learner, engaged in self-study, interested in development.</p>
+                    <p>Location: Bobruisk, Republic of Belarus.</p>
+                    <p>Skills: Adobe Creative Suite, HTML5, CSS6, JavaScript, git, API.</p>
+                    <p class="randomFact"></p>
+                </div>
+                <img class="avatar" src="src/images/AlehPrakharevich.jpg" alt="photo of Aleh Prakharevich">
+            </div>
+        </section>
+        <section id="projects">
+            <h2 class="_animated" style="cursor: pointer;">Projects</h2>
+            <div class="carousel _animated">
+                <div class="carousel_wrapper">
+                    <div class="card">
+                        <div class="card_container proj1">
+                            <span class="project_description"><i class="fa-brands fa-html5" title="HTML5"></i> <i class="fa-brands fa-css3-alt" title="CSS3"></i> <i class="fa-brands fa-js" title="JS ES6"></i></span>
+                        <span class="project_name"><a href="https://iamprakharevich.github.io/LifeisMomentum/" target="_blank" rel="noopener noreferrer">Momentum</a></span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card_container proj2">
+                            <span class="project_description"><i class="fa-brands fa-html5" title="HTML5"></i> <i class="fa-brands fa-css3-alt" title="CSS3"></i> <i class="fa-brands fa-js" title="JS ES6"></i></span>
+                            <span class="project_name"><a href="https://iamprakharevich.github.io/GuessingGame/#" target="_blank" rel="noopener noreferrer">GuessingGame</a></span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card_container proj3">
+                            <span class="project_description">Coming soon</span>
+                        <span class="project_name"><a href="#" target="_blank" rel="noopener noreferrer">IAMShop</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="wrapper _animated hidden">
+                <button><i class="fa-solid fa-chevron-left"></i></button>
+                <div class="projects">
+                    <div class="project_container hidden">
+                        <div class="project_info">
+                            <img src="src/images/proj1.png" alt="Life is Momentum">
+                            <span class="project_name"><a href="https://iamprakharevich.github.io/LifeisMomentum/" target="_blank" rel="noopener noreferrer">Momentum</a></span>
+                            <span class="project_description"><a href="https://github.com/iamprakharevich/LifeisMomentum/tree/gh-pages" target="_blank" rel="noopener noreferrer">Source</a></span>
+                            <span class="project_description">Momentum is an analog of the Chrome online store application with the same name.</span>
+                            <span class="project_description"><i class="fa-brands fa-html5" title="HTML5"></i> <i class="fa-brands fa-css3-alt" title="CSS3"></i> <i class="fa-brands fa-js" title="JS ES6"></i></span>
+                        </div>
+                        <div class="project_view">
+                            <a href="https://iamprakharevich.github.io/LifeisMomentum/" target="_blank" rel="noopener noreferrer"><img src="src/images/proj1_1.jpg" alt="LifeisMomentum"></a>
+                        </div>
+                    </div>
+                    <div class="project_container hidden">
+                        <div class="project_info">
+                            <img src="src/images/proj2.png" alt="GuessTheNumber">
+                            <span class="project_name"><a href="https://iamprakharevich.github.io/GuessingGame/#" target="_blank" rel="noopener noreferrer">GuessingGame</a></span>
+                            <span class="project_description"><a href="https://github.com/iamprakharevich/GuessingGame/tree/gh-pages" target="_blank" rel="noopener noreferrer">Source</a></span>
+                            <span class="project_description">The computer makes a number in the numerical range specified in the settings, and the user tries to guess it by entering a number in the input field.</span>
+                            <span class="project_description"><i class="fa-brands fa-html5" title="HTML5"></i> <i class="fa-brands fa-css3-alt" title="CSS3"></i> <i class="fa-brands fa-js" title="JS ES6"></i></span>
+                        </div>
+                        <div class="project_view">
+                            <a href="https://iamprakharevich.github.io/GuessingGame/#" target="_blank" rel="noopener noreferrer"><img src="src/images/proj2_1.jpg" alt="GuessTheNumber"></a>
+                        </div>
+                    </div>
+                    <div class="project_container hidden">
+                        <div class="project_info">
+                            <img src="src/images/proj3.png" alt="IAMShop">
+                            <span class="project_name"><a href="#" target="_blank" rel="noopener noreferrer">IAMShop</a></span>
+                            <span class="project_description"><a href="#" target="_blank" rel="noopener noreferrer">Not released yet.</a></span>
+                            <span class="project_description">I'm currently working on a merch design.</span>
+                            <span class="project_description">Check this project later :)</span>
+                        </div>
+                        <div class="project_view">
+                            
+                        </div>
+                    </div>
+                </div>
+                <button><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+        </section>
+        <section id="code">
+            <h2 class="_animated">Code examples</h2>
+            <div class="code_container _animated">
+                <div class="code_cards">
+                    <div class="code_card html">
+                        <div class="code-header">
+                            <span class="language"><i class="fa-brands fa-html5"></i> HTML</span>
+                        </div>
+                        <div class="code-content">
+                            <code>
+                            &lt;<span class="c-r">section</span> <span class="c-o">class</span>=<span class="c-g">"showcase"</span> <span class="c-o">id</span>=<span class="c-g">"home"</span>&gt;<br>
+                            &emsp;&lt;<span class="c-r">div</span> <span class="c-o">class</span>=<span class="c-g">"overlay _animated"</span>&gt;<br>
+                            &emsp;&emsp;&lt;<span class="c-r">div</span> <span class="c-o">class</span>=<span class="c-g">"container"</span>&gt;<br>
+                            &emsp;&emsp;&emsp;&lt;<span class="c-r">h1</span> <span class="c-o">class</span>=<span class="c-g">"title"</span>&gt;Aleh Prakharevich&lt;/<span class="c-r">h1</span>&gt;<br>
+                            &emsp;&emsp;&emsp;&lt;<span class="c-r">p</span> <span class="c-o">class</span>=<span class="c-g">"description"</span>&gt;Front-End Developer&lt;/<span class="c-r">p</span>&gt;<br>
+                            &emsp;&emsp;&emsp;&lt;<span class="c-r">a</span> <span class="c-o">href</span>=<span class="c-g">"#"</span> <span class="c-o">download</span>=<span class="c-g">"src/downloads/Aleh_Prakharevich-CV.pdf"</span><span class="c-o">class</span>=<span class="c-g">"btn download"</span>&gt;Download CV&lt;/<span class="c-r">a</span>&gt;<br>
+                            &emsp;&emsp;&emsp;&lt;<span class="c-r">a</span> <span class="c-o">href</span>=<span class="c-g">"mailto:iamprakharevich@gmail.com"</span> <span class="c-o">class</span>=<span class="c-g">"contactme"</span>&gt;Contact me&lt;/<span class="c-r">a</span>&gt;<br>
+                            &emsp;&emsp;&lt;/<span class="c-r">div</span>&gt;<br>
+                            &emsp;&lt;/<span class="c-r">div</span>&gt;<br>
+                            &lt;/<span class="c-r">section</span>&gt;
+                            </code>
+                        </div>
+                    </div>
+                    <div class="code_card css">
+                        <div class="code-header">
+                            <span class="language"><i class="fa-brands fa-css3-alt"></i> CSS</span>
+                        </div>
+                        <div class="code-content">
+                            <code>
+                                <span class="c-o">._animated{</span><br>
+                                    transform: <span class="c-c">translateY</span>(<span class="c-o">20</span><span class="c-r">px</span>);<br>
+                                    opacity: <span class="c-o">0</span>;<br>
+                                <span class="c-o">}</span><br>
+                                <br>
+                                <span class="c-o">._animated.showElement{</span><br>
+                                    opacity: <span class="c-o">1</span>;<br>
+                                    transform: <span class="c-c">translateY</span>(<span class="c-o">0</span><span class="c-r">px</span>);<br>
+                                    transition: <span class="c-o">all 1.5</span><span class="c-r">s</span> <span class="c-o">ease 0</span><span class="c-r">s</span>;<br>
+                                <span class="c-o">}</span><br>
+                            </code>
+                        </div>
+                    </div>
+                    <div class="code_card js">
+                        <div class="code-header">
+                            <span class="language"><i class="fa-brands fa-js"></i> JS</span>
+                        </div>
+                        <div class="code-content">
+                            <code>
+                                <span class="c-p">let</span> <span class="c-r">options</span> <span class="c-b">=</span> <span class="c-o">{</span><span class="c-r">threshold</span>: <span class="c-o">0.5}</span>;<br>
+                                <span class="c-p">let</span> <span class="c-r">observer</span> <span class="c-b">=</span> <span class="c-p">new</span> <span class="c-y">IntersectionObserver</span><span class="c-o">(</span><span class="c-b">onEntry</span>, <span class="c-r">options</span><span class="c-o">)</span>;<br>
+                                <span class="c-p">let</span> <span class="c-r">elements</span> <span class="c-b">=</span> <span class="c-y">document</span>.<span class="c-b">querySelectorAll</span><span class="c-o">(</span> <span class="c-g">'._animated'</span><span class="c-o">)</span>;<br>
+                                <span class="c-p">for</span><span class="c-o">(</span><span class="c-p">let</span> <span class="c-r">index</span> <span class="c-b">=</span> <span class="c-o">0</span>; <span class="c-r">index</span> <span class="c-b"><</span> <span class="c-r">elements.length</span>; <span class="c-r">index</span><span class="c-b">++</span><span class="c-o">) {</span><br>
+                                &emsp;<span class="c-p">const</span> <span class="c-y">element</span> <span class="c-b">=</span> <span class="c-r">elements</span><span class="c-p">[</span><span class="c-r">index</span><span class="c-p">]</span><br>
+                                &emsp;<span class="c-r">observer</span>.<span class="c-o">observe</span><span class="c-p">(</span><span class="c-y">element</span><span class="c-p">)</span><br>
+                                }<br>
+                            </code>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contacts">
+            <h2 class="_animated">Contacts</h2>
+            <div class="contacts_container _animated">
+                <form action="#" method="POST" id="contact-form" class="form-horizontal" role="form">
+                    <div class="form-field">
+                        <input type="text" class="form-control _req" id="name" placeholder="YOUR NAME" name="name" required>
+                    </div>
+                    <div class="form-field">
+                        <input type="email" class="form-control _req" id="email" placeholder="YOUR EMAIL" name="email" required>
+                    </div>
+                    <div class="form-field">
+                        <textarea class="form-control" id="message" rows="10" placeholder="YOUR MESSAGE TO ME" name="message" required style="max-height: 500px;"></textarea>
+                    </div>
+                    <button class="btn btn-primary send-button" id="submit" type="submit">
+                        <i class="fa fa-paper-plane"></i> <span class="send-text">SEND</span>
+                    </button>
+                </form>
+                <div class="contact_info">
+                    <div class="contact_field">
+                        <a href="https://www.google.com/maps/@53.1674747,29.1937989,14z" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-location-dot"></i> <span>Bobruisk, Republic of Belarus</span></a>
+                    </div>
+                    <div class="contact_field">
+                        <a href="tel:+375445564529"><i class="fa-solid fa-phone"></i><span>8-044-556-45-29</span></a>
+                    </div>
+                    <div class="contact_field">
+                        <a href="mailto: iamprakharevich@gmail.com"><i class="fa-solid fa-envelope"></i> <span>iamprakharevich@gmail.com</span></a>
+                    </div>
+                    <div class="contact_field">
+                        <a href="https://www.codewars.com/users/iamprakharevich" target="_blank" rel="noopener noreferrer"><iconify-icon icon="simple-icons:codewars" width="24" height="24"></iconify-icon></a>
+                        <a href="https://github.com/iamprakharevich" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/iamprakharevich/?locale=en_US" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/iamprakharevich/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://vk.com/iamprakharevich" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-vk"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p class="_animated"><span>IAMPRAKHAREVICH</span>&copy2022</p>
+    </footer>
+    <script src="js/scroll.js"></script>
+    <script src="js/randomFact.js"></script>
+    <script src="js/projects.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="submit.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+</body>
+</html>
