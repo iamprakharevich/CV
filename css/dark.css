@@ -368,6 +368,7 @@ footer p span{
 }
 ._animated.hideElement{
     opacity: 0;
+    transform: translateY(0);
 }
 
 /*media*/
