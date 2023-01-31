@@ -107,7 +107,7 @@ body::before{
     border: 1px solid;
     border-image: linear-gradient(to left top, #e2e2e2, #585858, #e2e2e2);
     border-image-slice: 1;
-    background: url("/src/images/background_b.png") no-repeat top center/cover;
+    background: url("../src/images/background_b.png") no-repeat top center/cover;
     box-shadow: 0 0 10px rgba(0, 0, 0, .5);
 }
 
