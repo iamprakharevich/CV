@@ -64,7 +64,7 @@ menu_elems.forEach((Element,index)=>{
 const dark_theme_switch = document.querySelector(".dark_theme.switch span"),
 light_theme_switch = document.querySelector(".light_theme.switch span")
 
-let dark_theme="../css/dark.css", light_theme="../css/light.css"
+let dark_theme="css/dark.css", light_theme="css/light.css"
 
 function addStyleSheets (href) {
     var $head = document.head,
