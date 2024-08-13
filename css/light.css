@@ -313,7 +313,7 @@ span.description{
 }
 
 footer{
-    position: absolute;
+    position: fixed;
     font-size: 1rem;
     bottom: 0;
     width: 100vw;
