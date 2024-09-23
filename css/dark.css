@@ -242,6 +242,7 @@ section.active{
 .Info{
     justify-content: flex-start;
     overflow: scroll;
+    height: 100%;
 }
 
 .data_container{
